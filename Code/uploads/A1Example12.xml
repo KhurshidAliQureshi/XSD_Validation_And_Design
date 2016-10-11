@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<SensorCatalogue xmlns="http://www.w3schools.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	
+	<Sensor>
+		<Type>General sensor</Type>
+		<Model>Model of general sensor</Model>
+		<Vendor>Large vendor</Vendor>
+		<Description>Detailed description of the sensor</Description>
+		<Outputs>
+			<integerOutput id="1">110</integerOutput>
+			<floatOutput id="2">1.25</floatOutput>
+			<doubleOutput id="3">1.23</doubleOutput>
+			<textOutput id="4">12df</textOutput>
+		</Outputs>
+	</Sensor>
+	
+	<Sensor id="AAAA--12a">
+		<Type>General sensor</Type>
+		<Model>Model of general sensor3</Model>
+		<Vendor>Large vendor2</Vendor>
+		<Description>Detailed description of the sensor</Description>
+		<Description>Detailed description of the sensor2</Description>
+		<Outputs>
+			<integerOutput id="1">1</integerOutput>
+			<floatOutput id="2">1</floatOutput>
+			<doubleOutput id="3">1</doubleOutput>
+			<textOutput id="4">1234567890</textOutput>
+			<integerOutput id="5">2</integerOutput>
+			<integerOutput id="6">2</integerOutput>
+		</Outputs>
+	</Sensor>
+	
+	<Sensor id="AAAb-13b">
+		<Type>General sensor3</Type>
+		<Model>Model of general sensor3</Model>
+		<Vendor>Large vendor2</Vendor>
+		<Description>Detailed description of the sensor3</Description>
+		<Outputs>
+			<floatOutput id="2">-1.11</floatOutput>
+			<integerOutput>20</integerOutput>
+		</Outputs>
+	</Sensor>
+	
+</SensorCatalogue>
